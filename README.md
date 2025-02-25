@@ -13,3 +13,4 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
      - stampo nella console la stringa 'Buzz' al posto del numero 
    - altrimenti se i numeri sono sia multipli di 3 che di 5
      - stampo nella console la stringa 'FizzBuzz' al posto del numero
+  - altrimenti stampo i numeri non multipli di 3 e di 5 come numero in cifre. 
