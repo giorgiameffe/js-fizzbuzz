@@ -7,15 +7,19 @@ for (let i = 1; i <= 100; i++) {
 
     // istruzioni condizionali
 
-    if (i % 3 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
         
-        let word = 'Fizz';
+        let word = 'FizzBuzz';
         console.log(word);
     
-    } else if (i % 5 === 0) {
+    } else if (i % 3 === 0) {
 
-        word = 'Buzz'; 
+        word = 'Fizz'; 
         console.log(word);
 
-    } 
+    } else if (i % 5 === 0) {
+        
+        word = 'Buzz';
+        console.log(word);
+    }
 }
