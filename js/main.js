@@ -3,11 +3,12 @@
 
 for (let i = 1; i <= 100; i++) {
 
+    let word = 'FizzBuzz';
+
     // istruzioni condizionali
 
     if (i % 3 === 0 && i % 5 === 0) {
 
-        let word = 'FizzBuzz';
         console.log(word);
     
     } else if (i % 3 === 0) {
@@ -22,6 +23,6 @@ for (let i = 1; i <= 100; i++) {
 
     } else {
         
-        console.log(i)
+        console.log(i);
     }
 }
